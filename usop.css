@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .header{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  a{
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+  }
+
+  body {
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+  }
+  button{
+    width: 230px;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+
+
+  .header {
+  
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+
+  .section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 1.8em;
+    color: orange;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    font-size: 1em;
+    color: #666;
+  }
+
+
+  .section .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .section .btn:hover {
+    background-color: orange;
+  }
